@@ -1,0 +1,36 @@
+{
+    "name": "Zend database migration",
+    "description": "Doctrine migration to manage database changes",
+    "type": "project",
+    "license": "GPL",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Md. Sarwar Zahan",
+            "email": "md.sarwar.zahan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+        }
+    },
+    "include-path": [
+        "library"
+    ],
+    "require": {
+        "php": ">=5.3",
+
+        "ext-curl": "*",
+        "ext-date": "*",
+        "ext-intl": "*",
+        "ext-mbstring": "*",
+        "ext-xdebug": "*",
+
+        "zendframework/zendframework1": "~1.12"
+    },
+    "require-dev": {
+    },
+    "repositories": [
+    ]
+}
